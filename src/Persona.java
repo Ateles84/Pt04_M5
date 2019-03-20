@@ -10,7 +10,7 @@ public class Persona {
 	private int alçada;
 	private int edat;
 
-	public Persona(String nom, int alçada, int edat) {
+	private Persona(String nom, int alçada, int edat) {
 		super();
 		this.nom = nom;
 		this.alçada = alçada;
